@@ -15,10 +15,10 @@ For demo of this project you can visit [DEMO link](https://vsainiuk.github.io/La
 
 Clone this repository, install dependencies, and launch this project.
 
-`git clone https://github.com/vSainiuk/Landing-MET.git`
-`cd Landing-MET`
-`npm install`
-`npm start`
+- `git clone https://github.com/vSainiuk/Landing-MET.git`
+- `cd Landing-MET`
+- `npm install`
+- `npm start`
 
 # Contact
 

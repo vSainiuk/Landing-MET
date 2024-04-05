@@ -8,13 +8,15 @@
 
   &__paragraph {
     margin: 0;
-  }
 
-  &--link {
-    text-decoration: none;
-    color: $color-white;
-  }
+    &--link {
+      display: block;
 
+      @include onDesktop {
+        @include hover(transform, translateX(5px));
+      }
+    }
+  }
 
   &__tooltip {
     position: absolute;
@@ -34,7 +36,7 @@
     line-height: 16px;
     text-transform: uppercase;
     text-shadow: 18px 4px 26px rgba(0, 0, 0, 0.44);
-    
+
     opacity: 0;
     pointer-events: none;
 
@@ -50,7 +52,7 @@
   }
 
   @include onDesktop {
-    @include hover(transform, scale(1.5));
+    @include hover(transform, scale(1.2));
   }
 
 

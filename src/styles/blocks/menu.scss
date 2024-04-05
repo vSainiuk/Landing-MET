@@ -28,8 +28,16 @@
     text-decoration: none;
     color: $color-white;
 
+    transition: transform $effectDuration;
+
     &--last {
       margin-bottom: 16px;
+    }
+
+    @include onDesktop {
+      &:hover {
+        transform: translateX(5px);
+      }
     }
   }
 
